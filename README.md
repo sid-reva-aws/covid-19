@@ -24,7 +24,7 @@ Also, you need to choose the bucket name wisely as S3 exposes the URL in the fol
 11.Also, it’s very important to only grant GetObject to the users and not PUT, DELETE, etc any kind of Edit access in order to prevent any security issues.
 
 **Deploy the Angular build**
-Now let’s copy the angular build output that we discussed initially in the article generated at the dist path and upload it in S3.
+Now let’s copy the angular build output (unzip dist.rar and copy the whole folder contents) that we discussed initially in the article generated at the dist path and upload it in S3.
 Once the files are successfully uploaded, you can navigate to the S3 endpoint URL and verify the application is up and running
 
 
