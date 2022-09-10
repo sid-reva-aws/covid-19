@@ -26,5 +26,5 @@ Also, you need to choose the bucket name wisely as S3 exposes the URL in the fol
 **Deploy the Angular build**
 Now let’s copy the angular build output that we discussed initially in the article generated at the dist path and upload it in S3.
 Once the files are successfully uploaded, you can navigate to the S3 endpoint URL and verify the application is up and running
-We have just created our first angular app and deployed it in AWS serverless S3.
+
 
